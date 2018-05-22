@@ -1,8 +1,10 @@
-# timeit
+# go-timeit
+
+[![Build Status](https://travis-ci.org/sanchezpaco/go-timeit.svg?branch=master)](https://travis-ci.org/sanchezpaco/go-timeit)
 
 go-timeit is an utility that calculate the absolute real time from a given milliseconds quantity.
 
-# Usage
+## Usage
 
 Get the package:
 
@@ -10,7 +12,7 @@ Get the package:
 $ go get github.com/sanchezpaco/go-timeit/timeit
 ```
 
-Import the package into your project: 
+Import the package into your project:
 
 ```go
 import "github.com/sanchezpaco/go-timeit/timeit"
@@ -35,10 +37,22 @@ timePassed := timeit.TimeIt(myTimeInMilliseconds)
 // }
 ```
 
+## Running the tests
+
+Inside `timeit` folder run:
+
+```
+$ go test
+```
+
 ## Versioning ##
 
-In general, go-github follows [semver](https://semver.org/) 
+In general, go-github follows [semver](https://semver.org/)
 
-# License
+## Authors
+
+* **Paco Sanchez** - [sanchezpaco](https://github.com/sanchezpaco)
+
+## License
 
 This library is distributed under the GNU General Public License found in the [LICENSE](./LICENSE) file.
